@@ -139,3 +139,46 @@ Gallery or a future Special Events page needs them — no reason to stage all
   decided: no order form/third-party service. The Menu page has a "How To
   Order" 3-step explainer (reach out → confirm total → pay via Venmo/Zelle),
   and "Order Now" still just points at phone/email/Instagram in the footer.
+
+## September 2026 storefront refresh
+
+The local site now includes `order.html`, a dedicated contact-based ordering
+page linked by all order CTAs. It uses email, telephone, and Instagram links;
+there is still no order form, payment processing, or third-party checkout.
+Payment details now live on the order page, rather than in the footer.
+The original logo, crimson/cream palette, confirmed menu prices, and founder
+story remain. The homepage uses a product-first layout with gift/event cards.
+Shared CSS now uses system sans-serif body text and Georgia display headings,
+with no external font request. Photos use existing WebP variants. Gallery
+navigation uses a native dialog with keyboard navigation and focus restoration.
+See README.md for local preview and maintenance instructions.
+
+The follow-up visual direction uses self-hosted Fraunces display type, oversized
+headlines, a full crimson hero, layered photos, staggered product cards, and
+a warm CSS-only photo finish in `css/bold.css`. Original photos are untouched.
+
+The latest refinement integrates all three generated campaign images, replaces
+all original displayed photos with styled campaign photography, replaces stretched inner-page image
+backdrops with split intros, and uses consistent product-card alignment.
+Responsive image descriptors now reflect actual pixel widths, including small
+originals. `build-generated-images.js` regenerates the campaign WebP files.
+
+## Explicit typography preference
+
+The user strongly rejected the Arial/Helvetica body font shown in the menu
+notice bar. Do not reintroduce Arial or Helvetica. Body text, navigation,
+buttons, and supporting headings now use self-hosted Manrope. This preference
+applies to future redesigns, too.
+
+The header/footer logo now uses `logo-crisp-*` responsive PNGs exported directly
+from the original source, trimmed to its actual artwork bounds. Rebuild with
+`npm run build-logo`. Do not substitute an AI-redrawn logo or restore the old
+white-margin-heavy logo files for the header/footer.
+
+## Explicit photography preference
+
+The user requested no old photos on the site. All food photography, including
+the story section and gallery, now uses the generated campaign collection.
+Do not restore original low-resolution photos. Retain the unchanged brand logo.
+Original source files are archived on disk only. Keep generated gallery scenes
+and packaging labeled as styled inspiration or concepts, not real past events.
