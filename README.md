@@ -19,9 +19,12 @@ Open http://localhost:8000. There is no frontend build or runtime dependency.
 - `about.html`: founder and business story.
 - `events.html`: custom orders and celebrations.
 - `gallery.html`: photo gallery with keyboard-accessible modal navigation.
-- `order.html`: email, phone, Instagram, pickup, and payment information.
+- `order.html`: order form, contact, pickup, and payment information.
 
-Orders are arranged directly with the owner. Email links open the visitor’s email app; they do not submit an order automatically. There is no cart, online checkout, order database, or shipping integration. Customers must confirm availability and the total with the owner before paying.
+Order and custom-request CTAs link directly to the owner’s Google Form:
+https://docs.google.com/forms/d/e/1FAIpQLSe71TklJERga9to8uqNFnMsvWOhWWvNy2QTFtBiO7dcWoFxpQ/viewform
+
+Customers submit an order request; the owner confirms availability, the total, and pickup details before payment via Venmo or Zelle. Contact links remain available for questions. There is no on-site cart or payment processing. The order information page remains available from every footer. When changing the form URL, update all six HTML pages.
 
 ## Images
 

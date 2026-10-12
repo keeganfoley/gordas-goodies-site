@@ -10,8 +10,8 @@ Update it as decisions change — it's the source of truth, not a one-time doc.
 - **Name:** Gorda's Goodies LLC
 - **What it sells:** Handmade desserts, primarily **alfajores** — a Peruvian
   shortbread cookie sandwich filled with dulce de leche (manjar blanco), sold
-  by the box of 6 ($8.50). Also makes Crumb Cake ($7 + tax, 2 slices) and
-  Sticky Toffee Cupcakes ($8 + tax, each), and does custom/catering orders
+  by the box of 6 ($8.50). Also makes Crumb Cake ($6.50 + tax, 2 slices) and
+  Sticky Toffee Cupcakes ($7.50 + tax, each), and does custom/catering orders
   for events.
 - **Tagline (from current site):** "Signature sweets... Peruvian Alfajores...
   ¡qué rico!"
@@ -65,8 +65,8 @@ lightweight multi-page site, not a SPA. Contact + location live in a
    health crisis led her to rework traditional recipes).
 3. **Menu** — product list with descriptions. **Done** — real items and
    prices from the owner: Alfajores (box of 6, $8.50, flavors Original/
-   Chocolate-Dipped/Anise + seasonal Pumpkin Spice), Crumb Cake ($7 + tax,
-   2 slices), Sticky Toffee Cupcake ($8 + tax, each). Flan/Tres Leches/
+   Chocolate-Dipped/Anise + seasonal Pumpkin Spice), Crumb Cake ($6.50 + tax,
+   2 slices), Sticky Toffee Cupcake ($7.50 + tax, each). Flan/Tres Leches/
    Pionono/Rice Pudding were placeholder guesses from an earlier pass and
    have been removed — not actually on the menu.
 4. **Gallery** — photo grid, pulls from the broader photo library (weddings,
@@ -182,3 +182,12 @@ the story section and gallery, now uses the generated campaign collection.
 Do not restore original low-resolution photos. Retain the unchanged brand logo.
 Original source files are archived on disk only. Keep generated gallery scenes
 and packaging labeled as styled inspiration or concepts, not real past events.
+
+## October 2026 ordering update (current)
+
+Crumb Cake is $6.50 + tax for 2 slices; Sticky Toffee Cupcake is $7.50 + tax each.
+All order and custom-request CTAs now link directly to the owner’s Google Form:
+https://docs.google.com/forms/d/e/1FAIpQLSe71TklJERga9to8uqNFnMsvWOhWWvNy2QTFtBiO7dcWoFxpQ/viewform
+This supersedes earlier contact-only/no-form decisions. Phone, email, and Instagram
+remain available for questions. `order.html` retains pickup and payment details;
+customers await availability and total confirmation before paying.
